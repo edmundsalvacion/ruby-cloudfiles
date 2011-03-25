@@ -28,7 +28,7 @@ module CloudFiles
       end
       # Load the metadata now, so we'll get a CloudFiles::Exception::NoSuchContainer exception should the container
       # not exist.
-      self.container_metadata
+      # self.container_metadata
     end
     
     # Refreshes data about the container and populates class variables. Items are otherwise
